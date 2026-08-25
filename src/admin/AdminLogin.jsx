@@ -11,7 +11,7 @@ function AdminLogin({ onLogin }) {
 
     setError("");
 
-    if (username === "admin" && password === "admin123") {
+    if (username === "enioladev01" && password === "Ayodele123#") {
       onLogin();
     } else {
       setError("Invalid username or password.");
